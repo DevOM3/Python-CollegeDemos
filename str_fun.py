@@ -1,0 +1,13 @@
+st = input("Enter any String for Manipulation : \t")
+
+print("Length        : ", st.__len__())
+print("Capitalize    : ", st.capitalize())
+print("Find          : ", st.find('a', 0))
+print("Is Alnum ?    : ", st.isalnum())
+print("Is Alphabet ? : ", st.isalpha())
+print("Is Digit ?    : ", st.isdigit())
+print("Lower         : ", st.lower())
+print("Is Lower ?    : ", st.islower())
+print("Is Upper ?    : ", st.isupper())
+print("Upper         : ", st.upper())
+print("Strip Left    : ", st.lstrip())
